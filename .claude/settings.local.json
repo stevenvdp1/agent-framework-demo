@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Rename-Item -Path \"D:\\\\TECHORAMA\\\\src\\\\02-AgentInstructions\" -NewName \"_temp-AgentInstructions\")",
+      "Bash(cd /d D:\\\\TECHORAMA\\\\src)",
+      "Bash(ren \"02-AgentInstructions\" \"_temp-AgentInstructions\")",
+      "PowerShell(dotnet build \"D:\\\\TECHORAMA\\\\src\\\\04-ToolCalling\\\\ToolCalling.csproj\" --nologo --no-incremental 2>&1)",
+      "Bash(dotnet build *)"
+    ]
+  }
+}

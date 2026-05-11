@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Shared/Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/01-SimpleAgent/">
+    <Project Path="src/01-SimpleAgent/SimpleAgent.csproj" />
+  </Folder>
+  <Folder Name="/src/02-MultiTurn/">
+    <Project Path="src/02-MultiTurn/MultiTurn.csproj" />
+  </Folder>
+  <Folder Name="/src/03-AgentInstructions/">
+    <Project Path="src/03-AgentInstructions/AgentInstructions.csproj" />
+  </Folder>
+  <Folder Name="/src/04-ToolCalling/">
+    <Project Path="src/04-ToolCalling/ToolCalling.csproj" />
+  </Folder>
+  <Folder Name="/src/05-WebSearch/">
+    <Project Path="src/05-WebSearch/WebSearch.csproj" />
+  </Folder>
+  <Folder Name="/src/06-Workflows/">
+    <Project Path="src/06-Workflows/Workflows.csproj" />
+  </Folder>
+</Solution>
