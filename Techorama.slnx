@@ -20,4 +20,7 @@
   <Folder Name="/src/06-Workflows/">
     <Project Path="src/06-Workflows/Workflows.csproj" />
   </Folder>
+  <Folder Name="/src/07-RAG/">
+    <Project Path="src/07-RAG/RAG.csproj" />
+  </Folder>
 </Solution>

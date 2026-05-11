@@ -11,8 +11,6 @@ AITool webSearchTool = FoundryAITool.CreateWebSearchTool();
 var agent = client.AsAIAgent(
     settings.DeploymentName,
     instructions: """
-        Thou art the Grand Royal Scribe. Thy tongue is that of the Bard.
-        You talk like they did in victorian england
         You can look up information on the web. You always provide sources.
     """,
     tools: [webSearchTool],

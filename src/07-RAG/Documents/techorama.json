@@ -1,0 +1,1042 @@
+[
+  {
+    "date": "2026-05-12",
+    "time": "08:30–09:30",
+    "room": "Room 8",
+    "topic": "Beyond the AI Hype: What's Real, What's Next",
+    "speaker": "Richard Campbell",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "08:30–09:30",
+    "room": "Room 5",
+    "topic": "Beyond the AI Hype: What's Real, What's Next (Overflow 1)",
+    "speaker": "Richard Campbell",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "08:30–09:30",
+    "room": "Room 9",
+    "topic": "Beyond the AI Hype: What's Real, What's Next (Overflow 2)",
+    "speaker": "Richard Campbell",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 1",
+    "topic": "You’re Not Just Tired: The Psychology of Burnout",
+    "speaker": "Arthur Doler",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 10",
+    "topic": "Copilot Loves SharePoint",
+    "speaker": "Todd Klindt",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 11",
+    "topic": "Defending the Keep: Modern Identity Attacks",
+    "speaker": "Els Putzeys",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 13",
+    "topic": "Agents Talking to Agents: Inside the A2A Protocol",
+    "speaker": "Massimo Crippa",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 4",
+    "topic": "Microsoft Fabric for Dummies",
+    "speaker": "Koen Verbeeck",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 5",
+    "topic": "Architecting Apollo: Systems Design Lessons from the Golden Age of Spaceflight",
+    "speaker": "Kyle Kotowick",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 6",
+    "topic": "How AI Agents Changed the Way We Build Azure Integrations",
+    "speaker": "Rob Hofman",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 7",
+    "topic": "Going Passwordless - A Practical Guide to Passkeys in ASP.NET Core",
+    "speaker": "Maarten Balliauw",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 8",
+    "topic": "Next-Gen AI Apps with .NET 10: Models, Data, Agents, and MCP Servers",
+    "speaker": "Jon Galloway",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "09:45–10:45",
+    "room": "Room 9",
+    "topic": "The road to a faster ReSharper",
+    "speaker": "Kevin Gosse",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "10:50–11:10",
+    "room": "Room 8",
+    "topic": "Building Castles for Many Lords: Multitenancy in Practice",
+    "speaker": "Jerry Van Echelpoel",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 1",
+    "topic": "Kindness in tech",
+    "speaker": "Kathleen Dollard",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 10",
+    "topic": "Optimistic Security",
+    "speaker": "Niall Merrigan",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 11",
+    "topic": "From Localhost to Multi-Cloud: Building Production-Ready Apps with DocumentDB",
+    "speaker": "Mark Brown",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 13",
+    "topic": "Shift Left on Non-Functionals: Continuous Validation with Azure",
+    "speaker": "Tom van den Berg",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 4",
+    "topic": "Confident and Wrong — Detecting LLM Hallucinations in Production",
+    "speaker": "Hampton Paulk",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 5",
+    "topic": "BYOAI - Build your own... Aspire Integration?!",
+    "speaker": "Maddy Montaquila",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 6",
+    "topic": "Git Scenarios: How Do I Fix That?",
+    "speaker": "Rob Richardson",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 7",
+    "topic": "Uniting divided MCP appdoms with OAuth and Cross App Access",
+    "speaker": "Alisa Duncan",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 8",
+    "topic": "Productivity Tips and Tricks in Visual Studio",
+    "speaker": "Leslie Richardson",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "11:15–12:15",
+    "room": "Room 9",
+    "topic": "Lead your team like a knight!",
+    "speaker": "Hannes Lowette",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "12:30–12:50",
+    "room": "Room 8",
+    "topic": "The node_modules Iceberg: Mysteries Below the Waterline",
+    "speaker": "Chris DeMars",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 1",
+    "topic": "Hard lessons learned from a decade of architecting software on the cloud",
+    "speaker": "Marilag Dimatulac Svennevig",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 10",
+    "topic": "Airport Quest: Relationship-Based Access Control with OpenFGA",
+    "speaker": "Sander Molenkamp",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 11",
+    "topic": "Secure Hosting of Legacy Applications on Azure",
+    "speaker": "Bart Demeulenaere",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 13",
+    "topic": "Beyond pair programming: Autonomous development with SpecKit and Ralph",
+    "speaker": "Hidde de Smet",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 4",
+    "topic": "Designing REST APIs for the age of AI agents",
+    "speaker": "Boyan Mihaylov",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 5",
+    "topic": "Taking Control of Coding Agents with OpenCode and OpenSpec",
+    "speaker": "Geert van der Cruijsen",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 6",
+    "topic": "Building the Ultimate Safety Net with Integration Tests",
+    "speaker": "Jimmy Bogard",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 7",
+    "topic": "Agentic CI/CD: Azure DevOps vs GitHub Agentic Workflows",
+    "speaker": "Thibaut De Cremer",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 8",
+    "topic": "Inside GPT – Large Language Models Demystified",
+    "speaker": "Alan Smith",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "13:15–14:15",
+    "room": "Room 9",
+    "topic": "Clean Architecture for Blazor in the Real World",
+    "speaker": "Johan Smarius",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 1",
+    "topic": "Building reliable applications / What we can learn from the Three Little Pigs",
+    "speaker": "Sergey Bykov",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 10",
+    "topic": "ASP.NET Core, from DEV to PRD",
+    "speaker": "Wesley Cabus",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 11",
+    "topic": "Azure Spot instances as your secret weapon",
+    "speaker": "Jiří Činčura",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 13",
+    "topic": "We Rolled Out GitHub Copilot… How Do We Prove It Helps?",
+    "speaker": "Liuba Gonta, Yuliya Khadasevich",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 4",
+    "topic": "From Automation to Intelligence: Using Power Automate GPT Prompts for Smarter Document Processing",
+    "speaker": "Christina Wheeler",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 5",
+    "topic": "Spec-driven development live",
+    "speaker": "Sakari Nahi",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 6",
+    "topic": "String and memory: a long love story in .NET",
+    "speaker": "Christophe Nasarre",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 7",
+    "topic": "Make Your SQL Server Queries Faster Than Your Neighbour’s",
+    "speaker": "Pinal Dave",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 8",
+    "topic": "Build an MCP Server in C#",
+    "speaker": "Rockford Lhotka",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "14:30–15:30",
+    "room": "Room 9",
+    "topic": "Beyond Pub/Sub - Advanced Messaging Patterns",
+    "speaker": "Poornima Nayar",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "15:35–15:55",
+    "room": "Room 8",
+    "topic": "Reusing DevOps Steps, Jobs, Stages, and Pipelines across your company projects",
+    "speaker": "Jorren Schepers, Wannes Maes",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 1",
+    "topic": "Agent-Ready Frontends: A Development Guide",
+    "speaker": "Vuong Ha",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 10",
+    "topic": "Securing Modern Workloads with Entra Agent ID",
+    "speaker": "Sergey Chubarov",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 11",
+    "topic": "From Courtly hype to battlefield impact: Making AI work in the real world",
+    "speaker": "Gila Marelus",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 13",
+    "topic": "Ship faster. Stress Less. Agentic DevOps with Github Copilot and SRE Agent",
+    "speaker": "Nir Mashkowski",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 4",
+    "topic": "Professional AI-Assisted Development with Cursor: From Vibecoding to Production-Ready Code",
+    "speaker": "Xavier Decuyper",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 5",
+    "topic": "MITRE ATT&CK for Developers",
+    "speaker": "Chris Ayers",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 6",
+    "topic": "Building well-documented versioned HTTP APIs in ASP.NET Core",
+    "speaker": "Dennis Doomen",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 7",
+    "topic": "Testing smarter: Bringing AI into your E2E testing workflows",
+    "speaker": "Elio Struyf",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 8",
+    "topic": "From Single Agents to Systems: Designing Multi-Agent Architecture",
+    "speaker": "Sakari Nahi",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "16:00–17:00",
+    "room": "Room 9",
+    "topic": "Azure Virtual Networks for developers",
+    "speaker": "Rik Hepworth",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 1",
+    "topic": "How Microfrontends Let Your Teams Ship Fast Without Breaking Things",
+    "speaker": "Dante De Ruwe",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 10",
+    "topic": "Build an agent into any app with the GitHub Copilot SDK",
+    "speaker": "Bart Wullems",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 11",
+    "topic": "Hello, Agent World! A Lap Around AI Agents on AWS",
+    "speaker": "Alexander Dragunov",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 13",
+    "topic": "The RAGged Edge: Keep your data and AI close",
+    "speaker": "Christian Peeters",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 4",
+    "topic": "Stop flying blind. Monitor your applications with Azure Application Insights.",
+    "speaker": "Sam Vanhoutte",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 5",
+    "topic": "AI Agents In-Depth – Function Calling, MCP and Tool Use Under the Hood",
+    "speaker": "Alan Smith",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 6",
+    "topic": "Turbocharge your applications with Microsoft AI Foundry",
+    "speaker": "Vincent Biret",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 7",
+    "topic": "Get your outbox out of the dark ages!",
+    "speaker": "Szymon Pobiega",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 8",
+    "topic": "C# 14 and Beyond",
+    "speaker": "Bart De Smet",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-12",
+    "time": "17:15–18:15",
+    "room": "Room 9",
+    "topic": "Do It With Style: Rethinking CSS",
+    "speaker": "Dylan Beattie",
+    "difficulty": "Expert"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 1",
+    "topic": ".NET supply chain: Protecting against hidden threats",
+    "speaker": "Tom van den Berg",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 10",
+    "topic": "Putting the AI in .NET MAUI",
+    "speaker": "Shaun Lawrence",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 11",
+    "topic": "Hack the Castle: Timeless Parallels in Security",
+    "speaker": "Joachim Dekker",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 13",
+    "topic": "From Autocomplete to Orchestrators",
+    "speaker": "Angelo Dejaeghere",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 4",
+    "topic": "Hybrid Caching in .NET",
+    "speaker": "Jody Donetti",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 5",
+    "topic": "Database Worst Practices by Gen AI",
+    "speaker": "Pinal Dave",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 6",
+    "topic": "Getting the most out of the SharePoint Knowledge Agent",
+    "speaker": "Todd Klindt",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 7",
+    "topic": "Building Collaborative Agents with Microsoft Agent Framework",
+    "speaker": "Rockford Lhotka",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 8",
+    "topic": "Staying sane when writing Roslyn incremental source generators",
+    "speaker": "Kathleen Dollard",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "08:30–09:30",
+    "room": "Room 9",
+    "topic": "Best Friends Forever: BFF and Single-Page Applications",
+    "speaker": "Christian Wenz",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 1",
+    "topic": "From idea to prompt to production-ready code? How AI-powered platforms can help you building apps.",
+    "speaker": "Elio Struyf",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 10",
+    "topic": "Ctrl+Alt+Resilient: Always-On Analytics Workloads on Azure",
+    "speaker": "Kristof Rennen, Wesley Backelant",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 11",
+    "topic": "Plug In, Power Up: Extending Coding Agents with Plugins",
+    "speaker": "Yanko Dzhemerenov",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 13",
+    "topic": "Red vs. Blue: Defending AI agents in Production",
+    "speaker": "Laura Verghote, Sofie Delaet",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 4",
+    "topic": "Prompt Engineering for Copilot Studio: Getting the Best Results from Your Agents",
+    "speaker": "Christina Wheeler",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 5",
+    "topic": "Deploying with Aspire to any cloud",
+    "speaker": "Maddy Montaquila",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 6",
+    "topic": "The Unbearable Weight of Architecture",
+    "speaker": "David Whitney",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 7",
+    "topic": "Eco Mode: Building Green Solutions on Azure",
+    "speaker": "Sander Molenkamp",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 8",
+    "topic": "Updating Legacy Apps to Modern .NET",
+    "speaker": "Jon Galloway",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "09:45–10:45",
+    "room": "Room 9",
+    "topic": "Lessons learned from translating parameterized collections in EF Core",
+    "speaker": "Jiří Činčura",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "10:50–11:10",
+    "room": "Room 8",
+    "topic": "Self-Driving SDLC",
+    "speaker": "Rahul Sinha",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 1",
+    "topic": "Securing ASP.NET Core Today: Lessons from the New OWASP Top 10",
+    "speaker": "Christian Wenz",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 10",
+    "topic": "What the Scrolls Didn’t Say: A Real-World Microsoft Agent Framework Quest",
+    "speaker": "Frederiek Vandepitte, Wouter Bauchart",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 11",
+    "topic": "Durable Execution — a quiet revolution in building software and AI",
+    "speaker": "Sergey Bykov",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 13",
+    "topic": "Building Resilient Azure Cosmos DB Kingdoms",
+    "speaker": "Theodorus Leonardus van Kraay",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 4",
+    "topic": "Writing .NET Tests with GitHub Copilot in Visual Studio and VS Code",
+    "speaker": "Leslie Richardson",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 5",
+    "topic": "MALFUNCTION 54: The Deadly Software of the Therac-25",
+    "speaker": "Kyle Kotowick",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 6",
+    "topic": "Building Agents with Agents",
+    "speaker": "Nir Mashkowski",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 7",
+    "topic": "React Client vs Server: Showdown at Render Creek",
+    "speaker": "Roland Guijt",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 8",
+    "topic": "OpenTelemetry in a Brownfield World",
+    "speaker": "Jimmy Bogard",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "11:15–12:15",
+    "room": "Room 9",
+    "topic": "Forging Curated Data in the Age of Castles and Guilds",
+    "speaker": "Nico Jacobs",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "12:30–12:50",
+    "room": "Room 8",
+    "topic": "bUnit: how to love and not fear Unit testing Blazor Components",
+    "speaker": "Jorn Hendrickx",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 1",
+    "topic": "The Well-Architected Architect - Building Secure, Reliable, Cost-efficient Solutions on Azure",
+    "speaker": "Chris Ayers",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 10",
+    "topic": "Safe by Design — Guardrails and Evals for Production LLM Systems",
+    "speaker": "Hampton Paulk",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 11",
+    "topic": "Boredom-Driven Development: The Dark Bargain at the Heart of Software",
+    "speaker": "Arthur Doler",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 13",
+    "topic": "Turning microservice chaos into a beautiful concerto",
+    "speaker": "Marc Duiker",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 4",
+    "topic": "The Modular Monolith: Structure Without the Microservice Madness",
+    "speaker": "Peter Himschoot",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 5",
+    "topic": "The hidden life of method calls",
+    "speaker": "Kevin Gosse",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 6",
+    "topic": "The Undersea Infrastructure",
+    "speaker": "Richard Campbell",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 7",
+    "topic": "Modern Cybersecurity Failures: Skills and Misconfigurations That Define the Battlefield",
+    "speaker": "Paula Januszkiewicz",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 8",
+    "topic": "Change is inevitable: versioning event-driven systems",
+    "speaker": "Laila Bougria",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "13:15–14:15",
+    "room": "Room 9",
+    "topic": "Building Git in 60 Minutes To See How It Works",
+    "speaker": "Stijn Castelyns",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 1",
+    "topic": "Introduction to fine tuning and evaluations in Microsoft Foundry",
+    "speaker": "Vincent Biret",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 10",
+    "topic": "Let the spec speak: Building intelligent tests with Gherkin and Playwright",
+    "speaker": "Elio Struyf, Luise Freese",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 11",
+    "topic": "From Analytics to Action: Unlocking Cosmos DB's Operational Intelligence in Microsoft Fabric",
+    "speaker": "Mark Brown",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 13",
+    "topic": "I Finally Understand Neural Networks: A Developer’s Perspective",
+    "speaker": "Lander Verhack",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 4",
+    "topic": "The end of coding as we know it: using and building agents that actually work",
+    "speaker": "Matthias Heylen",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 5",
+    "topic": "Cloud native platform engineering on Azure",
+    "speaker": "Geert van der Cruijsen",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 6",
+    "topic": "Full-Stack DevOps: Containerize and Deploy to Kubernetes",
+    "speaker": "Rob Richardson",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 7",
+    "topic": "Implementing Azure Policies: Before the Portal",
+    "speaker": "Barbara Forbes",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 8",
+    "topic": "Azure Service Bus - Behind the scenes",
+    "speaker": "Clemens Vasters",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "14:30–15:30",
+    "room": "Room 9",
+    "topic": "From coder to conductor: let AI agents execute while you decide",
+    "speaker": "Nicolas VYT",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 1",
+    "topic": "Surviving the Dual-Write Problem in Distributed Systems",
+    "speaker": "Sohan Maheshwar",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 10",
+    "topic": "Stop Copy-Pasting Your Build Configuration",
+    "speaker": "Matthias Koch",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 11",
+    "topic": "Zero trust in the age of Ai Agents",
+    "speaker": "Adnan Hendricks",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 4",
+    "topic": "The Fun Side of Advanced TypeScript: An Interactive Coding Session",
+    "speaker": "Dante De Ruwe",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 5",
+    "topic": "Forging an impenetrable armor for your Angular app",
+    "speaker": "Alisa Duncan",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 6",
+    "topic": "Much ado about Geo-Redundancy",
+    "speaker": "Rik Hepworth",
+    "difficulty": "Intermediate"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 7",
+    "topic": "Take Control: Agent Governance in Microsoft 365",
+    "speaker": "Thomas Vochten",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 8",
+    "topic": "I Didn't Know the CLR JIT Could Do That!",
+    "speaker": "Bart De Smet",
+    "difficulty": "Expert"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "16:00–17:00",
+    "room": "Room 9",
+    "topic": "Beyond DDD vs EA: Architecting Autonomous Landscapes That Actually Scale",
+    "speaker": "Dwight Matthys",
+    "difficulty": "Advanced"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "17:15–18:15",
+    "room": "Room 8",
+    "topic": "How 5000 years of history is shaping the AI era",
+    "speaker": "Tom Van De Weghe",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "17:15–18:15",
+    "room": "Room 5",
+    "topic": "How 5000 years of history is shaping the AI era (Overflow 1)",
+    "speaker": "Tom Van De Weghe",
+    "difficulty": "Introductory and overview"
+  },
+  {
+    "date": "2026-05-13",
+    "time": "17:15–18:15",
+    "room": "Room 9",
+    "topic": "How 5000 years of history is shaping the AI era (Overflow 2)",
+    "speaker": "Tom Van De Weghe",
+    "difficulty": "Introductory and overview"
+  }
+]
