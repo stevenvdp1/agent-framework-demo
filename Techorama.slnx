@@ -23,7 +23,13 @@
   <Folder Name="/src/06b-ConcurrentWorkflow/">
     <Project Path="src/06b-ConcurrentWorkflow/ConcurrentWorkflow.csproj" />
   </Folder>
+  <Folder Name="/src/06c-HandoffWorkflow/">
+    <Project Path="src/06c-HandoffWorkflow/HandoffWorkflow.csproj" />
+  </Folder>
   <Folder Name="/src/07-RAG/">
     <Project Path="src/07-RAG/RAG.csproj" />
+  </Folder>
+  <Folder Name="/src/08-Observability/">
+    <Project Path="src/08-Observability/Observability.csproj" />
   </Folder>
 </Solution>

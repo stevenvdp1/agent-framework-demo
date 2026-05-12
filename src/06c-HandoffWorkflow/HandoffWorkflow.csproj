@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <NoWarn>$(NoWarn);OPENAI001;MAAIW001</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <PackageReference Include="Microsoft.Agents.AI.Workflows" Version="*-*" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="*" />
+  </ItemGroup>
+
+</Project>
