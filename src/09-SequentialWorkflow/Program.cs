@@ -4,6 +4,8 @@ using Microsoft.Agents.AI.Workflows;
 using Microsoft.Extensions.AI;
 using Shared;
 
+using var otel = new ObservabilitySetup(consoleExporter: false);
+
 var settings = AgentFactory.LoadSettings();
 var client = AgentFactory.CreateClient(settings);
 
@@ -15,7 +17,10 @@ var knight = client.AsAIAgent(
         and have the knight speak first — setting up the situation with earnest, chivalrous bravado.
         Keep it to 2-3 sentences. End on a moment that invites the priest to respond.
     """,
-    name: "Knight");
+    name: "Knight")
+    .AsBuilder()
+    .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)
+    .Build();
 
 var priest = client.AsAIAgent(
     settings.DeploymentName,
@@ -25,7 +30,10 @@ var priest = client.AsAIAgent(
         Add a twist or misunderstanding that raises the comedic stakes.
         Keep it to 2-3 sentences. End on a moment that sets up the cutthroat for the punchline.
     """,
-    name: "Priest");
+    name: "Priest")
+    .AsBuilder()
+    .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)
+    .Build();
 
 var cutthroat = client.AsAIAgent(
     settings.DeploymentName,
@@ -34,7 +42,10 @@ var cutthroat = client.AsAIAgent(
         The knight set the scene and the priest escalated the tension. Now you deliver the final, unexpected punchline.
         Make it punchy, irreverent, and funny. One or two sentences max. Land the joke hard.
     """,
-    name: "Cutthroat");
+    name: "Cutthroat")
+    .AsBuilder()
+    .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)
+    .Build();
 
 var workflow = new WorkflowBuilder(knight)
     .AddEdge(knight, priest)

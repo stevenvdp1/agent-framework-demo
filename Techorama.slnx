@@ -11,25 +11,28 @@
   <Folder Name="/src/03-AgentInstructions/">
     <Project Path="src/03-AgentInstructions/AgentInstructions.csproj" />
   </Folder>
-  <Folder Name="/src/04-ToolCalling/">
-    <Project Path="src/04-ToolCalling/ToolCalling.csproj" />
+  <Folder Name="/src/04-RAG/">
+    <Project Path="src/04-RAG/RAG.csproj" />
   </Folder>
-  <Folder Name="/src/05-WebSearch/">
-    <Project Path="src/05-WebSearch/WebSearch.csproj" />
+  <Folder Name="/src/05-ToolCalling/">
+    <Project Path="src/05-ToolCalling/ToolCalling.csproj" />
   </Folder>
-  <Folder Name="/src/06A-SequentialWorkflow/">
-    <Project Path="src/06A-SequentialWorkflow/SequentialWorkflow.csproj" />
+  <Folder Name="/src/06-WebSearch/">
+    <Project Path="src/06-WebSearch/WebSearch.csproj" />
   </Folder>
-  <Folder Name="/src/06b-ConcurrentWorkflow/">
-    <Project Path="src/06b-ConcurrentWorkflow/ConcurrentWorkflow.csproj" />
+  <Folder Name="/src/07-Observability/">
+    <Project Path="src/07-Observability/Observability.csproj" />
   </Folder>
-  <Folder Name="/src/06c-HandoffWorkflow/">
-    <Project Path="src/06c-HandoffWorkflow/HandoffWorkflow.csproj" />
+  <Folder Name="/src/08-DevUI/">
+    <Project Path="src/08-DevUI/DevUI.csproj" />
   </Folder>
-  <Folder Name="/src/07-RAG/">
-    <Project Path="src/07-RAG/RAG.csproj" />
+  <Folder Name="/src/09-SequentialWorkflow/">
+    <Project Path="src/09-SequentialWorkflow/SequentialWorkflow.csproj" />
   </Folder>
-  <Folder Name="/src/08-Observability/">
-    <Project Path="src/08-Observability/Observability.csproj" />
+  <Folder Name="/src/10-ConcurrentWorkflow/">
+    <Project Path="src/10-ConcurrentWorkflow/ConcurrentWorkflow.csproj" />
+  </Folder>
+  <Folder Name="/src/11-HandoffWorkflow/">
+    <Project Path="src/11-HandoffWorkflow/HandoffWorkflow.csproj" />
   </Folder>
 </Solution>

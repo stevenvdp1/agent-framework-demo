@@ -4,4 +4,6 @@ public class AgentSettings
 {
     public string Endpoint { get; set; } = "";
     public string DeploymentName { get; set; } = "";
+    
+    public string AzureOpenAIEndpoint {get;set;}= "";
 }

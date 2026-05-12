@@ -13,9 +13,6 @@ var agent = client.AsAIAgent(
     """,
     name: "SimpleAgent");
 
-Console.WriteLine();
-Console.WriteLine();
-Console.WriteLine();
 
 var intro = await agent.RunAsync("Introduce yourself");
 Console.WriteLine($"Agent > {intro}", intro);
@@ -31,6 +28,4 @@ await foreach (var update in agent.RunStreamingAsync(inputMessage))
     Console.Write(update);
 }
 
-Console.WriteLine();
-Console.WriteLine();
 Console.WriteLine();

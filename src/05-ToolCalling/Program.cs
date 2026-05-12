@@ -5,6 +5,8 @@ using Shared;
 using ToolCalling;
 using ApprovalRequiredAIFunction = ToolCalling.ApprovalRequiredAIFunction;
 
+using var otel = new ObservabilitySetup(consoleExporter: false);
+
 var settings = AgentFactory.LoadSettings();
 var client = AgentFactory.CreateClient(settings);
 
@@ -15,17 +17,14 @@ var agent = client.AsAIAgent(
     model: settings.DeploymentName,
     instructions: """
         Thou art the Grand Royal Scribe. Thy tongue is that of the Bard.
-            1. Ask the traveler their name and weapon.
-            2. Roll their stats and use those stats to 'Forge' a shield description.
-            3. ALWAYS check the 'PredictWeather' tool for the traveler's region 
-            so they know if their armor will rust in the rain!
     """,
     name: "ToolCallingAgent",
     tools: [
-        AIFunctionFactory.Create(tools.GetKnightStats),
         AIFunctionFactory.Create(weatherTool.PredictWeather),
-        new ApprovalRequiredAIFunction(AIFunctionFactory.Create(tools.GenerateHeraldry))
-    ]);
+    ])
+    .AsBuilder()
+    .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)
+    .Build();
 
 var session = await agent.CreateSessionAsync();
 

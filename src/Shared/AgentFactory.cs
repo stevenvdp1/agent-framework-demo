@@ -1,7 +1,10 @@
+using Azure.AI.OpenAI;
 using Azure.AI.Projects;
 using Azure.Identity;
 using Microsoft.Agents.AI;
 using Microsoft.Extensions.Configuration;
+using OpenAI;
+using OpenAI.VectorStores;
 
 namespace Shared;
 
@@ -11,6 +14,7 @@ public static class AgentFactory
     {
         var config = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json")
+            .AddJsonFile("appsettings.development.json")
             .Build();
 
         var settings = new AgentSettings();
@@ -22,6 +26,13 @@ public static class AgentFactory
     {
         return new AIProjectClient(
             new Uri(settings.Endpoint),
+            new DefaultAzureCredential());
+    }
+
+    public static AzureOpenAIClient CreateOpenAIClient(AgentSettings settings)
+    {
+        return new AzureOpenAIClient(
+            new Uri(settings.AzureOpenAIEndpoint),
             new DefaultAzureCredential());
     }
 }

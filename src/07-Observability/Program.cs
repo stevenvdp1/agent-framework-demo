@@ -3,32 +3,9 @@ using Microsoft.Agents.AI;
 using Microsoft.Agents.AI.Workflows;
 using Microsoft.Extensions.AI;
 using Observability;
-using OpenTelemetry;
-using OpenTelemetry.Metrics;
-using OpenTelemetry.Resources;
-using OpenTelemetry.Trace;
 using Shared;
 
-const string SourceName = "Observability";
-const string ServiceName = "AgentObservability";
-
-var resourceBuilder = ResourceBuilder
-    .CreateDefault()
-    .AddService(ServiceName);
-
-using var tracerProvider = Sdk.CreateTracerProviderBuilder()
-    .SetResourceBuilder(resourceBuilder)
-    .AddSource(SourceName)
-    .AddConsoleExporter()
-    .AddOtlpExporter(o => o.Endpoint = new Uri("http://localhost:4317"))
-    .Build();
-
-using var meterProvider = Sdk.CreateMeterProviderBuilder()
-    .SetResourceBuilder(resourceBuilder)
-    .AddMeter(SourceName)
-    .AddConsoleExporter()
-    .AddOtlpExporter(o => o.Endpoint = new Uri("http://localhost:4317"))
-    .Build();
+using var otel = new ObservabilitySetup(consoleExporter: false);
 
 var settings = AgentFactory.LoadSettings();
 var client = AgentFactory.CreateClient(settings);
@@ -46,7 +23,7 @@ var questGiver = client.AsAIAgent(
     name: "QuestGiver",
     tools: [AIFunctionFactory.Create(questTools.GetQuestDetails)])
     .AsBuilder()
-    .UseOpenTelemetry(SourceName, cfg => cfg.EnableSensitiveData = true)
+    .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)
     .Build();
 
 var quartermaster = client.AsAIAgent(
@@ -59,7 +36,7 @@ var quartermaster = client.AsAIAgent(
     name: "Quartermaster",
     tools: [AIFunctionFactory.Create(supplyTools.CheckInventory)])
     .AsBuilder()
-    .UseOpenTelemetry(SourceName, cfg => cfg.EnableSensitiveData = true)
+    .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)
     .Build();
 
 var herald = client.AsAIAgent(
@@ -71,7 +48,7 @@ var herald = client.AsAIAgent(
     """,
     name: "Herald")
     .AsBuilder()
-    .UseOpenTelemetry(SourceName, cfg => cfg.EnableSensitiveData = true)
+    .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)
     .Build();
 
 var workflow = new WorkflowBuilder(questGiver)

@@ -1,10 +1,19 @@
 using Azure.AI.Projects;
 using Microsoft.Agents.AI;
+using Microsoft.Agents.AI.Workflows;
 using Microsoft.Extensions.AI;
 using Shared;
 
 var settings = AgentFactory.LoadSettings();
 var client = AgentFactory.CreateClient(settings);
+
+var start = client.AsAIAgent(
+settings.DeploymentName,
+    instructions: """
+        You ask the user a subject for a joke. And pass the user message to other agents.
+    """,
+    name: "start"
+);
 
 var knight = client.AsAIAgent(
     settings.DeploymentName,
@@ -43,29 +52,38 @@ var judge = client.AsAIAgent(
     """,
     name: "Judge");
 
+var workflow = new WorkflowBuilder(start)
+    .AddFanOutEdge(start, [knight, priest, cutthroat])
+    .AddFanInBarrierEdge([knight, priest, cutthroat], judge)
+    .Build();
+
 Console.WriteLine("Running: [Knight | Priest | Cutthroat] (concurrent) -> Judge\n");
 
 Console.Write("Give me a subject for a joke > ");
 var inputMessage = Console.ReadLine();
 Console.WriteLine();
 
-Console.WriteLine("Comedians are writing their jokes concurrently...\n");
 
-var comedians = new[] { ("Knight", knight), ("Priest", priest), ("Cutthroat", cutthroat) };
+await using StreamingRun run = await InProcessExecution.RunStreamingAsync(workflow, inputMessage);
+await run.TrySendMessageAsync(new TurnToken(emitEvents: true));
 
-var jokeTasks = comedians.Select(async c =>
+List<ChatMessage> result = new();
+await foreach (WorkflowEvent evt in run.WatchStreamAsync())
 {
-    var session = await c.Item2.CreateSessionAsync();
-    var joke = await c.Item2.RunAsync(inputMessage!, session);
-    return (Name: c.Item1, Joke: joke);
-});
+    if (evt is AgentResponseUpdateEvent e)
+    {
+        Console.Write(e.Update.Text);
+    }
+    else if (evt is WorkflowOutputEvent outputEvt)
+    {
+        result = outputEvt.As<List<ChatMessage>>()!;
+        break;
+    }
+}
 
-var jokes = await Task.WhenAll(jokeTasks);
-
-var judgeInput = string.Join("\n\n", jokes.Select(j => $"[{j.Name}]: {j.Joke}"));
-
-Console.WriteLine("All jokes are in! Sending to the Judge...\n");
-
-var judgeSession = await judge.CreateSessionAsync();
-var verdict = await judge.RunAsync(judgeInput, judgeSession);
-Console.WriteLine(verdict);
+// Display aggregated results from all agents
+Console.WriteLine("===== Final Aggregated Results =====");
+foreach (var message in result)
+{
+    Console.WriteLine($"{message.Role}: {message.Text}");
+}

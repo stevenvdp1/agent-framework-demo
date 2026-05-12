@@ -1,30 +1,37 @@
 using Azure.AI.Projects;
-using Microsoft.Agents.AI.Foundry;
+using Microsoft.Agents.AI;
 using Microsoft.Extensions.AI;
+using RAG;
 using Shared;
 
 var settings = AgentFactory.LoadSettings();
 var client = AgentFactory.CreateClient(settings);
 
-AITool webSearchTool = FoundryAITool.CreateWebSearchTool();
+var dataPath = Path.Combine(AppContext.BaseDirectory, "Documents", "techorama.json");
+TechoramaSearch.Load(dataPath);
+
+var searchProvider = new TextSearchProvider(
+    TechoramaSearch.SearchAdapter);
 
 var agent = client.AsAIAgent(
     settings.DeploymentName,
     instructions: """
-        You can look up information on the web. You always provide sources.
+        You are a helpful assistant for Techorama 2026, a Microsoft technology conference.
     """,
-    tools: [webSearchTool],
-    name: "WebSearchAgent"
-    );
+    name: "RAGAgent")
+    .AsBuilder()
+    .UseAIContextProviders(searchProvider)
+    .Build();
 
 var session = await agent.CreateSessionAsync();
 
-Console.WriteLine("Multi-turn conversation with web search (type 'exit' to quit)\n");
+Console.WriteLine("Ask questions about Techorama 2026 (type 'exit' to quit)\n");
 
 while (true)
 {
     Console.Write("User > ");
     var input = Console.ReadLine();
+    Console.WriteLine();
     if (string.IsNullOrWhiteSpace(input) || input.Equals("exit", StringComparison.OrdinalIgnoreCase))
         break;
 
