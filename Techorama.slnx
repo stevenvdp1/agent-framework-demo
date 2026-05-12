@@ -17,8 +17,11 @@
   <Folder Name="/src/05-WebSearch/">
     <Project Path="src/05-WebSearch/WebSearch.csproj" />
   </Folder>
-  <Folder Name="/src/06-Workflows/">
-    <Project Path="src/06-Workflows/Workflows.csproj" />
+  <Folder Name="/src/06A-SequentialWorkflow/">
+    <Project Path="src/06A-SequentialWorkflow/SequentialWorkflow.csproj" />
+  </Folder>
+  <Folder Name="/src/06b-ConcurrentWorkflow/">
+    <Project Path="src/06b-ConcurrentWorkflow/ConcurrentWorkflow.csproj" />
   </Folder>
   <Folder Name="/src/07-RAG/">
     <Project Path="src/07-RAG/RAG.csproj" />

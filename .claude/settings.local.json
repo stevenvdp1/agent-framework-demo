@@ -7,7 +7,11 @@
       "PowerShell(dotnet build \"D:\\\\TECHORAMA\\\\src\\\\04-ToolCalling\\\\ToolCalling.csproj\" --nologo --no-incremental 2>&1)",
       "Bash(dotnet build *)",
       "Bash(dotnet package *)",
-      "Bash(dotnet list *)"
+      "Bash(dotnet list *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/microsoft/agent-framework/main/dotnet/samples/03-workflows/Agents/FoundryAgent/Program.cs\")",
+      "PowerShell(dotnet build D:\\\\TECHORAMA\\\\src\\\\06-Workflows\\\\ --nologo -v q 2>&1)"
     ]
   }
 }
