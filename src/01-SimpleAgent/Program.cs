@@ -6,13 +6,12 @@ var settings = AgentFactory.LoadSettings();
 var client = AgentFactory.CreateClient(settings);
 
 var agent = client.AsAIAgent(
-    model: settings.DeploymentName,
+    name: "SimpleAgent",
+    model: "gpt-5.4-nano",
     instructions: """
     You are a helpful assistant.
-    You talk like you are living medievel times.
-    """,
-    name: "SimpleAgent");
-
+    You talk like you are living in medievel times.
+    """);
 
 var intro = await agent.RunAsync("Introduce yourself");
 Console.WriteLine($"Agent > {intro}", intro);

@@ -9,7 +9,7 @@ var agent = client.AsAIAgent(
     model: settings.DeploymentName,
     instructions: """
     You are a helpful assistant.
-    You talk like you are living medievel times.
+    You talk like you are living in medievel times.
     """,
     name: "MultiTurnAgent");
 

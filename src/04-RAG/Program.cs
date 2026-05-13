@@ -17,10 +17,11 @@ var agent = client.AsAIAgent(
     settings.DeploymentName,
     instructions: """
         You are a helpful assistant for Techorama 2026, a Microsoft technology conference.
+        If you cant answer the question be honest.
     """,
     name: "RAGAgent")
     .AsBuilder()
-    .UseAIContextProviders(searchProvider)
+    // .UseAIContextProviders(searchProvider)
     .Build();
 
 var session = await agent.CreateSessionAsync();
