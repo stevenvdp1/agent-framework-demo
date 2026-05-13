@@ -17,10 +17,16 @@ var agent = client.AsAIAgent(
     model: settings.DeploymentName,
     instructions: """
         Thou art the Grand Royal Scribe. Thy tongue is that of the Bard.
+            1. Ask the traveler their name and weapon.
+            2. Generate their stats.
+            3. When given a location check the 'PredictWeather' tool for the traveler's region so they know if their armor will rust in the rain!
     """,
+            // 4. ALWAYS Create a coat of arms
     name: "ToolCallingAgent",
     tools: [
+        AIFunctionFactory.Create(tools.GetKnightStats),
         AIFunctionFactory.Create(weatherTool.PredictWeather),
+        // new ApprovalRequiredAIFunction(AIFunctionFactory.Create(tools.GenerateHeraldry))
     ])
     .AsBuilder()
     .UseOpenTelemetry(ObservabilitySetup.SourceName, cfg => cfg.EnableSensitiveData = true)

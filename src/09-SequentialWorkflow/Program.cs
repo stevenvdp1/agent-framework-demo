@@ -50,6 +50,7 @@ var cutthroat = client.AsAIAgent(
 var workflow = new WorkflowBuilder(knight)
     .AddEdge(knight, priest)
     .AddEdge(priest, cutthroat)
+    .WithOpenTelemetry()
     .Build();
 
 Console.WriteLine("Running workflow: Knight -> Priest -> Cutthroat\n");

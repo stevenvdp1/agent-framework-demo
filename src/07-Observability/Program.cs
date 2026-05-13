@@ -54,6 +54,7 @@ var herald = client.AsAIAgent(
 var workflow = new WorkflowBuilder(questGiver)
     .AddEdge(questGiver, quartermaster)
     .AddEdge(quartermaster, herald)
+    .WithOpenTelemetry()
     .Build();
 
 Console.WriteLine("Running workflow: QuestGiver -> Quartermaster -> Herald\n");

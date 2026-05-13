@@ -4,7 +4,10 @@
       "PowerShell(dotnet build src/06A-SequentialWorkflow/SequentialWorkflow.csproj 2>&1)",
       "PowerShell(Get-Process | Where-Object { $_.ProcessName -match \"dotnet|devenv|omnisharp|razor|msbuild|vstest\" } | Select-Object ProcessName, Id)",
       "PowerShell(handle.exe \"04-ToolCalling\" 2>$null)",
-      "PowerShell(try { [System.IO.File]::Open\\(\"D:\\\\TECHORAMA\\\\src\\\\04-ToolCalling\\\\bin\\\\Debug\\\\net10.0\\\\ToolCalling.dll\", 'Open', 'ReadWrite', 'None'\\).Close\\(\\); \"File is unlocked\" } catch { $_.Exception.Message })"
+      "PowerShell(try { [System.IO.File]::Open\\(\"D:\\\\TECHORAMA\\\\src\\\\04-ToolCalling\\\\bin\\\\Debug\\\\net10.0\\\\ToolCalling.dll\", 'Open', 'ReadWrite', 'None'\\).Close\\(\\); \"File is unlocked\" } catch { $_.Exception.Message })",
+      "PowerShell(dotnet restore D:\\\\TECHORAMA\\\\src\\\\08-DevUI\\\\DevUI.csproj 2>&1)",
+      "PowerShell(dotnet build D:\\\\TECHORAMA\\\\src\\\\08-DevUI\\\\DevUI.csproj 2>&1 | Select-String -Pattern \"error\" -NotMatch | Out-Null; $dll = Get-ChildItem -Recurse \"D:\\\\TECHORAMA\\\\src\\\\08-DevUI\\\\bin\" -Filter \"Microsoft.Agents.AI.Hosting.dll\" | Select-Object -First 1; if \\($dll\\) { $dll.FullName })",
+      "WebSearch"
     ]
   }
 }

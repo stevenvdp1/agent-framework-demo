@@ -13,11 +13,11 @@ var agent = client.AsAIAgent(
     """,
     name: "MultiTurnAgent");
 
-var session = await agent.CreateSessionAsync();
+// var session = await agent.CreateSessionAsync();
 
 Console.WriteLine("Multi-turn conversation (type 'exit' to quit)\n");
 
-var intro = await agent.RunAsync("Introduce yourself", session);
+var intro = await agent.RunAsync("Introduce yourself");
 Console.WriteLine($"Agent > {intro}", intro);
 Console.WriteLine();
 while (true)
@@ -29,7 +29,7 @@ while (true)
         break;
 
     Console.Write("Agent > ");
-    await foreach (var update in agent.RunStreamingAsync(input, session))
+    await foreach (var update in agent.RunStreamingAsync(input))
     {
         Console.Write(update);
     }
